@@ -1,6 +1,0 @@
-@Arca.Api_HostAddress = http://localhost:5259
-
-GET {{Arca.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

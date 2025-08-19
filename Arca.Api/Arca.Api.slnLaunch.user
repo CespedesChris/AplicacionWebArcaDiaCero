@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "..\\Arca.MVC\\Arca.MVC.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Arca.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
