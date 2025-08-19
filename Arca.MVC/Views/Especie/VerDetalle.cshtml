@@ -1,0 +1,28 @@
+﻿@model Arca.MVC.Models.EspecieFormViewModel
+
+@{
+    ViewData["Title"] = "Detalle de Especie";
+}
+
+<h2>Detalle de Especie</h2>
+
+<div class="card p-3 mb-3">
+    <div class="mb-2">
+        <strong>Nombre Científico:</strong>
+        <span>@Model.NombreCientifico</span>
+    </div>
+    <div class="mb-2">
+        <strong>Nombre Común:</strong>
+        <span>@Model.NombreComun</span>
+    </div>
+    <div class="mb-2">
+        <strong>Familia:</strong>
+        <span>@Model.Familia</span>
+    </div>
+    <div class="mb-2">
+        <strong>Descripción:</strong>
+        <span>@Model.Descripcion</span>
+    </div>
+
+    <a class="btn btn-primary mt-3" asp-action="Index">Volver</a>
+</div>

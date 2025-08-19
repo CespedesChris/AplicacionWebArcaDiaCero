@@ -1,0 +1,58 @@
+﻿@model List<Arca.Data.Models.Especie>
+@{
+    ViewData["Title"] = "Especies";
+}
+<h2>Especies</h2>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Agregar Especie</a>
+</p>
+
+<!------------------------------------------------ ESTO AYUDA A MOSTRAR EL MENSAJE DE ERROR ---------------------------------------------->
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+<!------------------------------------------------ ESTO AYUDA A MOSTRAR EL MENSAJE DE ERROR ---------------------------------------------->
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre Científico</th>
+            <th>Nombre Común</th>
+            <th>Familia</th>
+            <th>Descripcion</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var e in Model)
+        {
+            <tr>
+                <td>@e.NombreCientifico</td>
+                <td>@e.NombreComun</td>
+                <td>@e.Familia</td>
+                
+                <td>
+                    <a class="btn btn-sm btn-secondary" href="@Url.Action("Edit", "Especie", new { id = e.IdEspecie })">Editar</a>
+                    <!-- Este enlace para llamar a visualización Descripción de la semilla -->
+                    
+
+                    <!-- Este enlace asegura que apunta al controlador MVC -->
+                    <a class="btn btn-sm btn-danger" asp-controller="Especie" asp-action="Delete" asp-route-id="@e.IdEspecie">Eliminar</a>
+
+
+                    <!-- Para ver el detalle de la Especie -->
+                    <a class="btn btn-sm btn-secondary" asp-controller="Especie" asp-action="VerDetalle" asp-route-id="@e.IdEspecie">Ver Detalle</a>
+
+                </td>
+            </tr>
+        }      
+        
+    </tbody>
+</table>
+<a class="btn btn-outline-secondary" asp-controller="Home" asp-action="VistaAdministrador">Volver</a>

@@ -1,0 +1,34 @@
+﻿
+
+@model Arca.Data.Models.ReporteProgramado
+
+<h2>Programar Reporte</h2>
+<form asp-action="Programar" method="post">
+     
+    
+    <div>
+        <label>Nombre Reporte</label>
+        <input asp-for="NombreReporte" class="form-control" />
+    </div>
+    <div>
+        <label>Formato</label>
+        <select asp-for="Formato" class="form-control">
+            <option value="pdf">PDF</option>
+            <option value="xlsx">Excel</option>
+            <option value="csv">CSV</option>
+        </select>
+    </div>
+    <div>
+        <label>Frecuencia</label>
+        <select asp-for="Frecuencia" class="form-control">
+            <option value="diaria">Diaria</option>
+            <option value="semanal">Semanal</option>
+            <option value="mensual">Mensual</option>
+        </select>
+    </div>
+    <div>
+        <label>Destinatarios (separados por coma)</label>
+        <input asp-for="Destinatarios" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Guardar</button>
+</form>

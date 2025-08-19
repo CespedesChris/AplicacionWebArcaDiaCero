@@ -1,0 +1,42 @@
+﻿@model Arca.MVC.Models.SemillaFormViewModel
+
+<h2>Agregar Semilla</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="Nombre" class="form-label"></label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="IdEspecie" class="form-label">Especie</label>
+        <select asp-for="IdEspecie" asp-items="Model.Especies" class="form-select"></select>
+        <span asp-validation-for="IdEspecie" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="IdUbicacion" class="form-label">Ubicación</label>
+        <select asp-for="IdUbicacion" asp-items="Model.Ubicaciones" class="form-select"></select>
+        <span asp-validation-for="IdUbicacion" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Cantidad" class="form-label"></label>
+        <input asp-for="Cantidad" type="number" min="0" class="form-control" />
+        <span asp-validation-for="Cantidad" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="FechaAlmacenamiento" class="form-label"></label>
+        <input asp-for="FechaAlmacenamiento" type="date" class="form-control" />
+        <span asp-validation-for="FechaAlmacenamiento" class="text-danger"></span>
+    </div>
+    <br><br />
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-outline-secondary">Volver</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

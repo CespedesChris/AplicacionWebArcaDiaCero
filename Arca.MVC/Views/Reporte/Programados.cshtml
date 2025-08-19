@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Arca.Data.Models.ReporteProgramado>
+
+<h2>Reportes Programados</h2>
+
+@if (TempData["Ok"] != null)
+{
+    <div class="alert alert-success">@TempData["Ok"]</div>
+}
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Mensaje"]
+    </div>
+}
+<p>
+    <a asp-action="Index" class="btn btn-secondary">Volver a filtros</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Formato</th>
+            <th>Frecuencia</th>
+            <th>Próximo envío</th>
+            <th>Destinatarios</th>
+            <th>Creado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.NombreReporte</td>
+                <td>@r.Formato</td>
+                <td>@r.Frecuencia</td>
+                <td>@(r.ProximoEnvio.HasValue? r.ProximoEnvio.Value.ToString("yyyy-MM-dd HH:mm") : "-")</td>
+                <td>@r.Destinatarios</td>
+                <td>@r.FechaCreacion.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>
+                    <a asp-action="EditarProgramado" asp-route-id="@r.Id">Editar</a>
+                    <a asp-action="EliminarProgramado" asp-route-id="@r.Id">Eliminar</a>
+                    <a asp-action="EnviarReporte" asp-controller="Reporte" asp-route-id="@r.Id"> Enviar Correo </a>
+
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

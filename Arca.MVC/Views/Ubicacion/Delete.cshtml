@@ -1,0 +1,21 @@
+﻿@model Arca.Data.Models.Ubicacion
+
+<h2>Eliminar Ubicacion</h2>
+<h4>¿Está seguro que desea eliminar esta ubicación?</h4>
+<div>
+
+    <dl class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.Nombre</dd>
+        <dt class="col-sm-2">Descripcion</dt>
+        <dd class="col-sm-10">@Model.Descripcion</dd>
+        <dt class="col-sm-2">Condiciones</dt>
+        <dd class="col-sm-10">@Model.Condiciones</dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" name="id" value="@Model.IdUbicacion" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a class="btn btn-secondary" asp-action="Index">Cancelar</a>
+    </form>
+</div>

@@ -1,0 +1,53 @@
+﻿@model List<Arca.Data.Models.Usuarios>
+@{
+    ViewData["Title"] = "Usuarios";
+}
+<h2>Usuarios</h2>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Agregar Usuario</a>
+</p>
+
+<!------------------------------------------------ ESTO AYUDA A MOSTRAR EL MENSAJE DE ERROR ---------------------------------------------->
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+<!------------------------------------------------ ESTO AYUDA A MOSTRAR EL MENSAJE DE ERROR ---------------------------------------------->
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>IdRol</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usu in Model)
+        {
+            <tr>
+                <td>@usu.Nombre</td>
+                <td>@usu.Apellido</td>
+                <td>@usu.Email</td>
+                <td>@usu.PasswordHash</td>
+                <td>@usu.IdRol</td>
+
+                <td>
+                    <a class="btn btn-sm btn-secondary" href="@Url.Action("Edit", "Usuarios", new { id = usu.IdUsuario })">Editar</a>
+
+                    <!-- Este enlace asegura que apunta al controlador MVC -->
+                    <a class="btn btn-sm btn-danger" asp-controller="Usuarios" asp-action="Delete" asp-route-id="@usu.IdUsuario">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="btn btn-outline-secondary" asp-controller="Home" asp-action="VistaAdministrador">Volver</a>

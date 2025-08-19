@@ -1,0 +1,52 @@
+﻿@model List<Arca.Data.Models.Semilla>
+@{
+    ViewData["Title"] = "Semillas";
+}
+<h2>Semillas</h2>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Agregar Semilla</a>
+</p>
+<!------------------------------------------------ ESTO AYUDA A MOSTRAR EL MENSAJE DE ERROR ---------------------------------------------->
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+<!------------------------------------------------ ESTO AYUDA A MOSTRAR EL MENSAJE DE ERROR ---------------------------------------------->
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Especie</th>
+            <th>Ubicación</th>
+            <th>Cantidad</th>
+            <th>Fecha Almacenamiento</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Nombre</td>
+                <td>@(s.Especie?.NombreComun)</td>
+                <td>@(s.Ubicacion?.Nombre)</td>
+                <td>@s.Cantidad</td>
+                <td>@s.FechaAlmacenamiento.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <a class="btn btn-sm btn-secondary" href="@Url.Action("Edit", "Semilla", new { id = s.IdSemilla })">Editar</a>
+                    <!-- Este enlace asegura que apunta al controlador MVC -->
+                    <a class="btn btn-sm btn-danger" asp-controller="Semilla" asp-action="Delete" asp-route-id="@s.IdSemilla">Eliminar</a>
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="btn btn-outline-secondary" asp-controller="Home" asp-action="VistaAdministrador">Volver</a>

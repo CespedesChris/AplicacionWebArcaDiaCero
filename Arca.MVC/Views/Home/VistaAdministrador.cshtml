@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Panel Administrador";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4"> - * - BIENVENIDO AL PANEL DE ADMINISTRADOR - * - </h1>
+
+</div>
+
+<p>Aquí puedes realizar los Mantenimientos:</p>
+
+<ul>
+    <li><a asp-controller="Usuarios" asp-action="Index">Gestionar Usuarios</a></li>
+    <li><a asp-controller="Especie" asp-action="Index">Gestionar Especies</a></li>
+    <li><a asp-controller="Semilla" asp-action="Index">Gestionar Semillas</a></li>
+    <li><a asp-controller="Ubicacion" asp-action="Index">Gestionar Ubicaciones</a></li>
+ 
+</ul>
+
+<p>También puede visualizar Inventario</p>
+
+<ul>
+    <li><a asp-controller="Reporte" asp-action="Index">Inventario</a></li>
+    <li><a asp-controller="Reporte" asp-action="Programados">Reportes programados</a></li>
+</ul>

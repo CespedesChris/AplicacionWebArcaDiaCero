@@ -1,0 +1,23 @@
+﻿@model Arca.Data.Models.Usuarios
+
+<h2>Eliminar Usuarios</h2>
+<h4>¿Está seguro que desea eliminar este usuario?</h4>
+<div>
+
+    <dl class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.Nombre</dd>
+        <dt class="col-sm-2">Apellido</dt>
+        <dd class="col-sm-10">@Model.Apellido</dd>
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.Email</dd>
+        <dt class="col-sm-2">Password</dt>
+        <dd class="col-sm-10">@Model.PasswordHash</dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" name="id" value="@Model.IdUsuario" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a class="btn btn-secondary" asp-action="Index">Cancelar</a>
+    </form>
+</div>

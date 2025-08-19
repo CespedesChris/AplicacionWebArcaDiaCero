@@ -1,0 +1,50 @@
+﻿@model List<Arca.Data.Models.Ubicacion>
+@{
+    ViewData["Title"] = "Ubicacion";
+}
+<h2>Ubicación</h2>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Agregar ubicación</a>
+</p>
+
+<!------------------------------------------------ ESTO AYUDA A MOSTRAR EL MENSAJE DE ERROR ---------------------------------------------->
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+<!------------------------------------------------ ESTO AYUDA A MOSTRAR EL MENSAJE DE ERROR ---------------------------------------------->
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>Condiciones</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Nombre</td>
+                <td>@u.Descripcion</td>
+                <td>@u.Condiciones</td>
+
+                <td>
+                    <a class="btn btn-sm btn-secondary" href="@Url.Action("Edit", "Ubicacion", new { id = u.IdUbicacion })">Editar</a>
+
+                    <!-- Este enlace asegura que apunta al controlador MVC -->
+                    <a class="btn btn-sm btn-danger" asp-controller="Ubicacion" asp-action="Delete" asp-route-id="@u.IdUbicacion">Eliminar</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="btn btn-outline-secondary" asp-controller="Home" asp-action="VistaAdministrador">Volver</a>

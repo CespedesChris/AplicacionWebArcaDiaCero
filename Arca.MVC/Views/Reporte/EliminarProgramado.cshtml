@@ -1,0 +1,13 @@
+﻿@model Arca.Data.Models.ReporteProgramado
+
+<h2>Eliminar Programación</h2>
+
+<div class="alert alert-warning">
+    ¿Seguro que deseas eliminar <strong>@Model.NombreReporte</strong> (ID: @Model.Id)?
+</div>
+
+<form asp-action="EliminarProgramadoConfirmado" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button class="btn btn-danger" type="submit">Eliminar</button>
+    <a asp-action="Programados" class="btn btn-secondary">Cancelar</a>
+</form>
