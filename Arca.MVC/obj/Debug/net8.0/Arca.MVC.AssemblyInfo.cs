@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arca.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90187d4a6370c4cee5d1222117aed48e4e5c0ca2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c0741229d671f0ddc445307070d3f4752f38e06")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arca.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arca.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
