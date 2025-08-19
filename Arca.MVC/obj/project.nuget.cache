@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j7SHDJP+qOQ=",
+  "dgSpecHash": "+4l85z45e1I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.MVC\\Arca.MVC.csproj",
+  "projectFilePath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.MVC\\Arca.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Familia NCL\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Familia NCL\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1672,11 +1672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\Arca.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\Arca.Data.csproj",
       "projectName": "Arca.Data",
-      "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\Arca.Data.csproj",
+      "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\Arca.Data.csproj",
       "packagesPath": "C:\\Users\\Familia NCL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\obj\\",
+      "outputPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

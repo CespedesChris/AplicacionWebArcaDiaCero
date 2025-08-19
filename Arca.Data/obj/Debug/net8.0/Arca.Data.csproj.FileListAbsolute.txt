@@ -22,3 +22,16 @@ C:\Users\Familia NCL\OneDrive\Escritorio\Arca.Api\Arca.Data\obj\Debug\net8.0\Arc
 C:\Users\Familia NCL\OneDrive\Escritorio\Arca.Api\Arca.Data\obj\Debug\net8.0\refint\Arca.Data.dll
 C:\Users\Familia NCL\OneDrive\Escritorio\Arca.Api\Arca.Data\obj\Debug\net8.0\Arca.Data.pdb
 C:\Users\Familia NCL\OneDrive\Escritorio\Arca.Api\Arca.Data\obj\Debug\net8.0\ref\Arca.Data.dll
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\bin\Debug\net8.0\Arca.Data.deps.json
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\bin\Debug\net8.0\Arca.Data.dll
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\bin\Debug\net8.0\Arca.Data.pdb
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\obj\Debug\net8.0\Arca.Data.csproj.AssemblyReference.cache
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\obj\Debug\net8.0\Arca.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\obj\Debug\net8.0\Arca.Data.AssemblyInfoInputs.cache
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\obj\Debug\net8.0\Arca.Data.AssemblyInfo.cs
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\obj\Debug\net8.0\Arca.Data.csproj.CoreCompileInputs.cache
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\obj\Debug\net8.0\Arca.Data.sourcelink.json
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\obj\Debug\net8.0\Arca.Data.dll
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\obj\Debug\net8.0\refint\Arca.Data.dll
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\obj\Debug\net8.0\Arca.Data.pdb
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Data\obj\Debug\net8.0\ref\Arca.Data.dll

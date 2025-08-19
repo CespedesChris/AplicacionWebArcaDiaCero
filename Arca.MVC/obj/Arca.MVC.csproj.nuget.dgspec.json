@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.MVC\\Arca.MVC.csproj": {}
+    "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.MVC\\Arca.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Api\\Arca.Api.csproj": {
+    "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Api\\Arca.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Api\\Arca.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Api\\Arca.Api.csproj",
         "projectName": "Arca.Api",
-        "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Api\\Arca.Api.csproj",
+        "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Api\\Arca.Api.csproj",
         "packagesPath": "C:\\Users\\Familia NCL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Api\\obj\\",
+        "outputPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\Arca.Data.csproj": {
-                "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\Arca.Data.csproj"
+              "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\Arca.Data.csproj": {
+                "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\Arca.Data.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\Arca.Data.csproj": {
+    "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\Arca.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\Arca.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\Arca.Data.csproj",
         "projectName": "Arca.Data",
-        "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\Arca.Data.csproj",
+        "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\Arca.Data.csproj",
         "packagesPath": "C:\\Users\\Familia NCL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\obj\\",
+        "outputPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -171,14 +171,14 @@
         }
       }
     },
-    "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.MVC\\Arca.MVC.csproj": {
+    "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.MVC\\Arca.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.MVC\\Arca.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.MVC\\Arca.MVC.csproj",
         "projectName": "Arca.MVC",
-        "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.MVC\\Arca.MVC.csproj",
+        "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.MVC\\Arca.MVC.csproj",
         "packagesPath": "C:\\Users\\Familia NCL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.MVC\\obj\\",
+        "outputPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -200,11 +200,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Api\\Arca.Api.csproj": {
-                "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Api\\Arca.Api.csproj"
+              "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Api\\Arca.Api.csproj": {
+                "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Api\\Arca.Api.csproj"
               },
-              "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\Arca.Data.csproj": {
-                "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\Arca.Api\\Arca.Data\\Arca.Data.csproj"
+              "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\Arca.Data.csproj": {
+                "projectPath": "C:\\Users\\Familia NCL\\OneDrive\\Escritorio\\AplicacionWebArcaDiaCero\\Arca.Data\\Arca.Data.csproj"
               }
             }
           }
