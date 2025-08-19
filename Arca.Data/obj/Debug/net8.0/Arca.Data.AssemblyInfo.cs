@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arca.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c0741229d671f0ddc445307070d3f4752f38e06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+459196596ceed5249753bbef1ab8309e2b1c5c74")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arca.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arca.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -329,3 +329,5 @@ C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Api\obj\D
 C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Familia NCL\OneDrive\Escritorio\AplicacionWebArcaDiaCero\Arca.Api\obj\Debug\net8.0\staticwebassets.build.json
