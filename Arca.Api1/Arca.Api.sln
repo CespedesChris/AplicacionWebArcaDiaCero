@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arca.Api", "Arca.Api.csproj", "{AFAEE95C-C9EB-483C-B365-BDFD58BCAE30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arca.Data", "..\Arca.Data\Arca.Data.csproj", "{51FF0874-0535-4ACB-A405-ED873CB2FBE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arca.MVC", "..\Arca.MVC\Arca.MVC.csproj", "{48642442-2E54-4970-A096-B006F6BB6735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFAEE95C-C9EB-483C-B365-BDFD58BCAE30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAEE95C-C9EB-483C-B365-BDFD58BCAE30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAEE95C-C9EB-483C-B365-BDFD58BCAE30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAEE95C-C9EB-483C-B365-BDFD58BCAE30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FF0874-0535-4ACB-A405-ED873CB2FBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FF0874-0535-4ACB-A405-ED873CB2FBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FF0874-0535-4ACB-A405-ED873CB2FBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FF0874-0535-4ACB-A405-ED873CB2FBE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48642442-2E54-4970-A096-B006F6BB6735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48642442-2E54-4970-A096-B006F6BB6735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48642442-2E54-4970-A096-B006F6BB6735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48642442-2E54-4970-A096-B006F6BB6735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57477CD7-36F6-458C-9892-8EB2E8EE5059}
+	EndGlobalSection
+EndGlobal
